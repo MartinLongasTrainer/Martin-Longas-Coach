@@ -58,6 +58,7 @@
 
   }
 
+
   .p_contenedor_offer{
     
     width: 80%;
@@ -85,11 +86,26 @@ header{
     z-index: 2;
 }
 
+.container_name{
+  background-color:#141419;
+  border-radius: 1000px;
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+  margin: auto;
+}
+.name{
+  background-color:transparent;
+  color: rgb(212, 40, 40);
+  margin: auto;
+}
 header h3{
     color:white;
-    background-color:#1e1f26;
-    padding-top: 20px;
-    padding-left: 20px;
+    margin-left: 10px;
+    padding-top: 15px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
 }
 .hamburger-button {
     display: flex;
